@@ -16,4 +16,5 @@ y0 = dsolve('D2y + 4*Dy + 40*y = 0', 'y(0) = 3', 'Dy(0) = -7', 't');
 disp(['(c) k = 40: y0 = ', char(y0)]);
 
 y = plotFromSyms(y0);
+legend('(a)','(b)','(c)')
 hold off;
