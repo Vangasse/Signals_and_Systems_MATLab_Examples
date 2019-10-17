@@ -1,0 +1,6 @@
+A = 1;
+e = exp(1);
+alpha = 
+t = 0:0.1:10;
+x_t = A*e.^(alpha.*t).*cos(omega.*t);
+plot(x_t)
